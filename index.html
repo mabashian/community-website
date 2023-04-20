@@ -4,7 +4,6 @@ og: http://ogp.me/ns# article: http://ogp.me/ns/article#
 " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Ansible Community Website">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ansible Community</title>
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -44,8 +43,12 @@ bg-dark
         <div class="collapse navbar-collapse" id="bs-navbar">
             <ul class="navbar-nav mr-auto"></ul>
 <ul class="navbar-nav navbar-right">
-<li class="nav-item">
-<a href="blog/" class="nav-link">Blog</a>
+<li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+            <div class="dropdown-menu">
+                    <a href="blog/" class="dropdown-item">Latest Posts</a>
+                    <a href="blog/archive.html" class="dropdown-item">Post Archive</a>
+            </div>
                 </li>
 <li class="nav-item">
 <a href="https://github.com/ansible-community" class="nav-link">GitHub</a>
